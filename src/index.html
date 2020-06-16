@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <header>
       <div id="welcome" class="welcome">
-          
         <h1>Validador de TARJETAS DE CREDITO</h1>
 
         <p>
-            Estimado cliente, por su seguridad y antes de hacer el envío de su
-            producto, validaremos que su TDC este correcta.
+          Estimado cliente, por su seguridad y antes de hacer el envío de su
+          producto, validaremos que su TDC este correcta.
         </p>
-        <img src="../img/tarjeta.png" alt="imagen tarjeta feliz"/>
-        <div id="textoUno" ></div>
+        <br> <br><br><br>
+        <img src="../img/tarjeta.png" alt="imagen tarjeta feliz" />
 
-        <input type="numero"  id="creditCardNumber" class="centrado" placeholder="su numero de tarjeta">
+        <input
+          type="number"
+          id="creditCardNumber"
+          class="centrado"
+          placeholder="xxxx xxxx xxxx xxxx"
+        />
+
+        <h4 id="mensajeError"></h4>
         <br />
-        <button  id="btnValidation" class="btn-validation">VALIDAR</button>
-        <button id="btn-validation" class="btn-validation">LIMPIAR DATOS</button>
+
+        <button id="btnValidation" class="btn-validation">VALIDAR</button>
+        
+          
+        </button>
       </div>
     </header>
     <main>
+      <div id="validationResult" class="step-validation">
+        <h1 id="showResult"></h1>
 
-      
-    <div id="validationResult" class="step-validation">
-      <p>segunda pantalla</p>
-    </div>
-
-    <div>
-    </div>
-
+        <h3 id="cardFlag"></h3>
+      </div>
     </main>
-    <footer></footer>
+    <br /><br />
+    <footer>
+      <br /><br />
+      <div>
+        Desarrollado por Fabiane Santos y Francis Martinez
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

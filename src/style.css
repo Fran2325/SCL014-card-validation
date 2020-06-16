@@ -1,47 +1,68 @@
 body {
-    text-align: center;
-    background-color: lightblue;
-  }
-  
-  .welcome {
-    display: block;
-  }
-  
-  .step-validation{
-    display: none;
-  }
-  
-  .contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .centrado {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-80%, -80%);
-    font-family: helvetica;
-    font-size: 15px;
-    font-weight: 300;
-    color: #1b1616;
-    margin: 10 10 10 10px;
-    overflow: hidden;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 15px;
-  }
-  
-  .btn-validation {
-    font-size: 8px;
-    font-family: Verdana, Helvetica;
-    font-weight: bold;
-    color:#fff;
-    background: #638cb5;
-    border: 0px;
-    width: 80px;
-    height: 19px;
-  }
-  
+  text-align: center;
+  color: gray;
+  background-color: lightblue;
+}
+
+.welcome {
+  display: block;
+}
+
+h1 {
+  color: darkblue;
+  text-shadow: -1px 0 lightpink, 0 1px lightpink, 1px 0 lightpink,
+    0 -1px lightpink;
+}
+
+h4 {
+  color: red;
+}
+
+.step-validation {
+  display: none;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -80%);
+  font-family: helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  color: #09427a;
+  background: rgb(243, 208, 143);
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+  border-color: #09427a;
+}
+
+.btn-validation {
+  position: absolute;
+  transform: translate(-80%, -80%);
+  text-decoration: none;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-weight: 150;
+  font-size: 25px;
+  font-style: unset;
+  color: #fff;
+  background-color: #09427a;
+  border-radius: 15px;
+}
+
+footer {
+  color: black;
+}
