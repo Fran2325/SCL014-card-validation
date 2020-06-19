@@ -9,8 +9,8 @@ const validator = {
       (elem, indice) => indice % 2 === 0
     );
 
-    /*se usa el metodo .map(), que verifica todos los elementos, y con una funcion damos un parametro y retorna un 
-  argumento(elemento *2, del array) y los tranforma en 'number'.*/
+    /*se usa el metodo .map(), que verifica todos los elementos, y con una función damos un parametro y 
+    retorna (elemento *2, del array)*/
     const indice_Par_veces_Dos = indice_Par.map(elem => elem * 2);
 
     // con el metodo .filter(), separamos los elementos <10
@@ -23,7 +23,7 @@ const validator = {
       resposta => resposta >= 10
     );
 
-    // los elementos >= 10 son analizados y retorna retorna una operacion (elemento -9)
+    // los elementos >= 10 son analizados y retorna (elemento -9)
     const indice_Par_MenosNueve = indice_Par_Mayores_Diez.map(elem => elem - 9);
 
     // metodo .concat(), concatena los numeros (< 10 con los  >=  10)
@@ -35,30 +35,44 @@ elementos del 1ª array. Los recoje y almacena en nuevo array(impares).*/
       (elem, indice) => indice % 2 !== 0
     );
 
-    /*se usa el metodo .map(), que verifica todos los elementos, y con una funcion damos un parametro y retorna un 
-  argumento. Los elementos impares son analizados y retorna retorna una operacion (elemento * 1),  y los tranforma en 'number'.*/
+    /*se usa el metodo .map(), que verifica todos los elementos, y con una funcion damos un parametro. 
+    Los elementos impares son analizados y retorna  (elemento * 1).*/
     const imparesResult = resultImpares.map(elem => elem * 1);
 
-    // metodo .concat(), concatena los numeros los arrays  finales de impares y pares
+    // metodo .concat(), concatena los numeros de los arrays  finales de impares y pares
     const concat_Impares_Pares = paresResult.concat(imparesResult);
+
 
     // metodo .reduce(), con dos parametros, y retorna la suma de los 2
     const finaResult = concat_Impares_Pares.reduce(
       (valorAnterior, valorActual) => valorAnterior + valorActual
     );
+    console.log(finaResult);
 
-    // condicional, donde si es verdadera retorna un alert de valido, si falsa, retorna un alert de invalido
+    // condicional, donde si es verdadera retorna true, si falsa, retorna false.
     if (finaResult % 10 === 0) {
-      return "Tu tarjeta es valida" + "<br>" + "<br>";
+      return true;
     } else {
-      return "Tu tarjeta es invalida" + "<br>" + "<br>";
+      return false;
     }
   },
 
-  //metodo para ocultar numero 
+  //metodo para ocultar numero .
   maskify: creditCardNumber => {
-    // console.log(creditCardNumber);
-  }
+    
+ // INDICA CANTIDAD DE DIGITOS DISPONIBLES PARA SE MARCADO POR EL # Y ADEMAS SEÑALA CON QUE CARACTER OCULTAR LOS DIGITO
+   return ([...creditCardNumber].map(x=>'#').join('')+creditCardNumber.slice(-4)).slice(-creditCardNumber.length);
+
+}
 };
 
 export default validator;
+
+
+
+
+
+
+
+
+

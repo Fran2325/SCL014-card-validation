@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div id="welcome" class="welcome">
-        <h1>Validador de TARJETAS DE CREDITO</h1>
 
-        <p>
-          Estimado cliente, por su seguridad y antes de hacer el envío de su
-          producto, validaremos que su TDC este correcta.
-        </p>
-        <br> <br><br><br>
-        <img src="../img/tarjeta.png" alt="imagen tarjeta feliz" />
+<head>
 
-        <input
-          type="number"
-          id="creditCardNumber"
-          class="centrado"
-          placeholder="xxxx xxxx xxxx xxxx"
-        />
+  <meta charset="utf-8" />
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <h4 id="mensajeError"></h4>
-        <br />
+<body>
+  <header>
+    <!-- primera pantalla -->
+    <div id="welcome" class="welcome">
+      <br>
+      <!-- titulo -->
+      <h1>Validador de TARJETAS DE CREDITO</h1>
+<!-- texto para el usuario -->
+      <p>
+        Estimado cliente, por su seguridad y antes de hacer el envío de su
+        producto, validaremos que su TDC este correcta.
+      </p>
+      <br> <br>
+<!-- imagen de fondo -->
+      <img src="../img/tarjeta.png" alt="imagen tarjeta feliz" />
 
-        <button id="btnValidation" class="btn-validation">VALIDAR</button>
-        
-          
-        </button>
-      </div>
-    </header>
-    <main>
-      <div id="validationResult" class="step-validation">
-        <h1 id="showResult"></h1>
+<!-- input que recíbe los datos de la tarjeta -->
+      <input type="text" id="creditCardNumber" class="centrado" placeholder="Numero de su tarjeta" />
 
-        <h3 id="cardFlag"></h3>
-      </div>
-    </main>
-    <br /><br />
-    <footer>
-      <br /><br />
-      <div>
-        Desarrollado por Fabiane Santos y Francis Martinez
-      </div>
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<!-- mensaje de error cuando el numero no corresponde al especificado en javascript -->
+      <h4 id="mensajeError"></h4>
+      <br />
+
+<!-- botón para validar los digitos de la tarjeta-->
+      <button id="btnValidation" class="btn">VALIDAR</button>
+      <br>
+
+    </div>
+  </header>
+
+  <main>
+    <!--pantalla del resultado  -->
+    <div id="validationResult" class="step-validation">
+      <br><br><br>
+      <!--mensagem que muestra el analisis del algoritmo de luhn, marca -->
+      <div id="showResult" class="validation-msg"></div>
+      <br>
+      <br><br><br>
+      <!-- botón para volver a la pantalla de inicio-->
+      <button id="btnIniciar" class="btn">INICIO</button>
+      <br><br><br>
+      <!-- botón para cerrar y salir del validador-->
+      <button id="btnCerrar" class="btn">CERRAR</button>
+    </div>
+  </main>
+  <br /><br />
+  <footer>
+    <div>
+      <!--texto sobre los creadores del validador-->
+      Desarrollado por Fabiane Santos y Francis Martinez
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
