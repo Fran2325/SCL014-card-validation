@@ -55,17 +55,17 @@ foto sketcher hecho a lapis y papel .
 
 
 
-# 6--Prototipado
+# 1. Prototipado
+![prototipo-baja-fidelidad](./img/prototipo-baja-fidelidad.png) 
 
-![imagen](../img/wireframe1.png)
 
-con el sketcher en manos, partimos a dibujar un wireframe en el app INVISION,  donde fue posible  mejorar algunos puntos del sketch y lanzarnos al prototipo.
+con el **sketcher** en manos, partimos a dibujar un wireframe en el app INVISION,  donde fue posible  mejorar algunos puntos del sketch y lanzarnos al prototipo.
 
 
 
 Utilizando el APP INVISION, creamos nuestro primero prototipo.
 
-![prototipo 1](https://fabiane291316.invisionapp.com/public/share/QV176G8YJ6#screens/478596646)
+[click para ver el prototipo de baja fideidad ](https://fabiane291316.invisionapp.com/public/share/QV176G8YJ6#screens/478596646)
 
 *7-- Objetivos de Aprendizado:
 
