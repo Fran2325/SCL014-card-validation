@@ -37,13 +37,19 @@ btnValidation.addEventListener("click", () => {
     if (resultado) {
       resultadoFinal.innerHTML = `
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
         <h2>Marca: ${cardFlag} </h2>
+        <br>
         <img src="./img/american-express.jpg" alt="American Express" class="card-logo">
+        <br>
         <h2 class="validation-status valid-result">VALIDA</h2>
         `
     } else {
       resultadoFinal.innerHTML = `
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+        <br>
         <h2 class="validation-status invalid-result">INVALIDA</h2>
         `
     }
@@ -55,13 +61,19 @@ btnValidation.addEventListener("click", () => {
     if (resultado) {
       resultadoFinal.innerHTML = `
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
         <h2>Marca: ${cardFlag} </h2>
+        <br>
         <img src="./img/visa-logo.svg.png" alt="Visa" class="card-logo">
+        <br>
         <h2 class="validation-status valid-result">VALIDA</h2>
         `
     } else {
       resultadoFinal.innerHTML = `
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+        <br>
         <h2 class="validation-status invalid-result">INVALIDA</h2>
         `
     }
@@ -72,13 +84,19 @@ btnValidation.addEventListener("click", () => {
     if (resultado) {
       resultadoFinal.innerHTML = `
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
         <h2>Marca: ${cardFlag} </h2>
+        <br>
         <img src="./img/mastercard-logo.png" alt="Mastercard" class="card-logo">
+        <br>
         <h2 class="validation-status valid-result">VALIDA</h2>
         `
     } else {
       resultadoFinal.innerHTML = `
         <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+        <br>
+        <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+        <br>
         <h2 class="validation-status invalid-result">INVALIDA</h2>
         `
     }
@@ -86,6 +104,9 @@ btnValidation.addEventListener("click", () => {
     move("welcome", "validationResult");
     resultadoFinal.innerHTML = `
     <h2>La tarjeta: ${validator.maskify(creditCardNumber)} </h2>
+    <br>
+    <img src="./img/check-rojo.webp" alt="check-rojo" class="card-logo">
+    <br>
     <h2 class="validation-status invalid-result">INVALIDA</h2>
     `
   } else {

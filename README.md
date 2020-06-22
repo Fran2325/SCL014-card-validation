@@ -1,8 +1,9 @@
 ![¡logo llame Ya!](./src/img/llameya-logo.png)
 
-[link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
 
 [link para proyecto en gh-pages](https://fran2325.github.io/SCL014-card-validation/src/index.html)
+
+[link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
 
 ## Resumen:
 
@@ -18,7 +19,13 @@ Como departamento de tecnologia nos solicitaron, crear un software donde los res
 
 Gracias a este sistema se optimizara el tiempo, antes de finalizar la compra.
 
-![foto del proyecto finalizado](./src/img/card-validation.png)
+![PAntalla Inicio](./src/img/pantalla-inicio.png)
+
+![Mensaje Error](./src/img/mensage-error.png)
+
+![Pantalla Valida](./src/img/valida.png)
+
+![Pantalla Invalida](./src/img/invalida.png)
 
 ## Investigación UX:
 
@@ -32,9 +39,7 @@ El validador de tarjetas será utilizado por los operadores de televentas, que a
 
 Después de tener los primeros datos del proyecto, fue idealizado , por medios de sketchs hechos con lapis y papel.
 
-![sketch-Fabiane](./src/img/sketch-Fabiane.png)
-
-<!-- ![sketch-Francis](./src/img/ .png)  -->
+![sketch](./src/img/sketch-Fabiane.png)
 
 ## Feedback de compañeros:
 
@@ -47,11 +52,11 @@ Partimos a dibujar en el app INVISION, donde fue posible mejorar algunos puntos 
 ![prototipo-baja-fidelidad](./src/img/prototipo-baja-fidelidad.png)
 
 
-[click para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
+[Click para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
 
 Después de finalizado, el **Validador de Tajetas**, será utizado en una interface para desktop, de fácil manipulación, y además tendrá un "script", dónde la persona responsable por la venta comunicará al cliente.
 
-## Objetivos de Aprendizado:
+## Objetivos Aprendidos:
 
 ### UX
 
