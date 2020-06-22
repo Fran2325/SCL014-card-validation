@@ -47,7 +47,8 @@ Partimos a dibujar en el app INVISION, donde fue posible mejorar algunos puntos 
 
 ![prototipo-baja-fidelidad](./src/img/prototipo-baja-fidelidad.png)
 
-[click para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QV176G8YJ6#screens/478596646)
+
+[click para ver el prototipo de alta fidelidad ](https://fabiane291316.invisionapp.com/public/share/QS17P0XYWY#screens/478820722)
 
 Después de finalizado, el **Validador de Tajetas**, será utizado en una interface para desktop, de fácil manipulación, y además tendrá un "script", dónde la persona responsable por la venta comunicará al cliente.
 
@@ -80,7 +81,9 @@ Después de finalizado, el **Validador de Tajetas**, será utizado en una interf
 ### Testing
 
 - Test unitarios
-  ![prototipo-baja-fidelidad](./src/img/testes-unitarios.png)
+
+
+![prototipo-baja-fidelidad](./src/img/testes-unitarios.png)
 
 ### Git y GitHub
 
@@ -98,4 +101,5 @@ Después de finalizado, el **Validador de Tajetas**, será utizado en una interf
 ## Autor@s:
 
   [Fabiane Santos](https://github.com/FabianeSantos?tab=repositories)
+  
   [Francis Martinez](https://github.com/Fran2325)
