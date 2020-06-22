@@ -1,13 +1,12 @@
-# ¡LLAMEYA! 
-## Credit Car Validator
-
-
+![¡logo llame Ya!](./src/img/llameya-logo.png)
 
 [link para proyecto en gh-pages/Fabiane](https://fabianesantos.github.io/SCL014-card-validation/src/index.html)
 
+[link para proyecto en gh-pages](https://fran2325.github.io/SCL014-card-validation/src/index.html)
+
 ## Resumen:
 
-Desarrollar un producto, donde sea posíble verificar los numeros de tarjetas de credito, fornecidos por un cliente al realizar una compra de algún producto via teléfono.
+Desarrollar un producto, donde sea posíble verificar los numeros de tarjetas de credito, indicados por un cliente, al realizar una compra via telefonica.
 
 ## Objetivos:
 
@@ -15,19 +14,19 @@ Somos del departamento de desarrollo de tecnologia de la empresa **¡LLAMEYA!**
 
 Unos de los canales de venta con mayor ganancia, es hecho via telemarketing.
 
-Fue solicitado a nuestro departamento crear un software donde los responsables por las televentas, puedan conferir si los numeros de las tarjetas que son solicitados para concretar la venta, son validos, antes de finalizar la compra del cliente.
+Como departamento de tecnologia nos solicitaron, crear un software donde los responsables de televentas, puedan verificar si los numeros de las TDC son validos, antes de finalizar la compra del cliente.
 
-Con eso, el proceso será optimizado. Dónde se podrá constatar si los datos de la tarjeta están correctos, antes de finalizar la compra.
+Gracias a este sistema se optimizara el tiempo, antes de finalizar la compra.
 
 ![foto del proyecto finalizado](./src/img/card-validation.png)
 
 ## Investigación UX:
 
-Muchas veces los clientes que comparam via teléfono son personas mayores, com alguna dificuldad visual o que no se manejam con computadores e la internet.
+Muchas veces los clientes que comparam via teléfono son personas mayores, com alguna dificuldad visual o que no se manejam con computadores e internet.
 
-A la vez, muchos operadores de televentas no logran entender los numeros dichos por los cliente, y conferir los numeros al principio evitará un mayor transtorno.
+A la vez, muchos operadores de televentas no logran entender los numeros dichos por los cliente, y verificar los numeros al principio evitará un mayor transtorno.
 
-El validador de tarjetas será utilizado por los atendentes del televentas, que antes mismo de confirmar los productos, podrán verificar si el numero de la tarjeta está correcto.
+El validador de tarjetas será utilizado por los operadores de televentas, que antes de enviar los productos, podrán verificar si el numero de la tarjeta es correcto.
 
 ## Ideación:
 
